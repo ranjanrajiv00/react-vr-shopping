@@ -1,0 +1,38 @@
+{
+	"name":"Shopping Experience",
+	"defaults":{
+		"infos":{
+			"icon":"icons/detail.png"
+		}
+	},
+	"firstSceneId":"ShoppingCenter",
+	"scenes":[
+		{
+			"id":"ShoppingCenter",
+			"photopanos":[
+				{"src":"shopping-store.jpg","rotateY":200}
+			],
+			"infos":[
+				{
+					"card":[
+						{"type":"image","src":"dress.jpeg","ratio":1.2,"borderWidth":0},
+                        {"type":"header","txt":"Smocked Back Midi Dress"},
+						{"type":"content","txt":"$119.99"},
+						{"type":"content","txt":"Your Price $71.99"},
+                        {"type":"footer","txt":"ann taylor@store"},
+                        {"type":"row","buttons":[
+							{"txt":"Add to Cart","uri":"mailto:info@ann.com"}
+                        ]}
+					],
+					"rotateY":0
+				}
+			],
+			"preloads":[
+				{"src":"shopping-store.jpg"}
+			]
+		}
+	]
+}
+
+
+
